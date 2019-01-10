@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    background: #FFC600;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+}
+
+body {
+    margin: 0; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.page {
+    background: #FFFFFF;
+    max-width: 60vw;
+    margin-left: 20vw;
+    padding: 40px;
+}
+
+figure {
+    float: left;
+    padding: 5px 30px 0px 0px;
+    margin: 0;
+}
+
+img {
+    max-width: 35vw;
+    max-height: 35vw;
+}
+
+.slide-in {
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+.align-left {
+    transform: translateX(-30%);
+    transition: all 1s linear;
+}
