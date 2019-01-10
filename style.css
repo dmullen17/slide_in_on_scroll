@@ -38,6 +38,10 @@ img {
 }
 
 .align-left {
-    transform: translateX(-30%);
-    transition: all 1s linear;
+    transform: translateX(-30%) scale(0.95);
+}
+
+.active {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
 }
